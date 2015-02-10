@@ -4,7 +4,7 @@ $error = '';
 //set db variables for localhost
 $servername = 'localhost';
 $db_username = 'root';
-$db_password = '1q2w3e4r!';
+$db_password = 'thedark2';
 $db = 'hkust';
 
 	//get inserted value from header.php or index.html

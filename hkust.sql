@@ -58,15 +58,18 @@ CREATE TABLE IF NOT EXISTS `members` (
   `id` varchar(20) CHARACTER SET utf8 NOT NULL,
   `pw` varchar(20) CHARACTER SET utf8 NOT NULL,
   `sid` int(11) NOT NULL,
-  `name` varchar(20) CHARACTER SET utf8 NOT NULL
+  `firstname` varchar(20) CHARACTER SET utf8 NOT NULL,
+  `lastname` varchar(20) CHARACTER SET utf8 NOT NULL,
+  `email` varchar(20) CHARACTER SET utf8 NOT NULL,
+  `phone` int(11) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `members`
 --
 
-INSERT INTO `members` (`key`, `id`, `pw`, `sid`, `name`) VALUES
-(1, 'admin', 'admin', 11111111, 'admin');
+INSERT INTO `members` (`key`, `id`, `pw`, `sid`, `firstname`, `lastname`, `email`, `phone`) VALUES
+(1, 'admin', 'admin', 11111111, 'Jay', 'Shin', 'admin@ust.hk', 12345678);
 
 -- --------------------------------------------------------
 
