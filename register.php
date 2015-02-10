@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <link rel="stylesheet" href="./css/bootstrapyeti.css">
 <!-- <link rel="stylesheet" href="./css/bootstrapp.min.css"> -->
+=======
+<link rel="stylesheet" href="./css/bootstrapp.css">
+<link rel="stylesheet" href="./css/bootstrapp.min.css">
+>>>>>>> origin/master
 <?php include './head.php' ?>
 <style>
   .container-fluid {

@@ -51,7 +51,6 @@ INSERT INTO `items` (`key`, `name`, `price`, `quantity`, `content`, `seller`, `i
 --
 -- Table structure for table `members`
 --
-
 DROP TABLE IF EXISTS `members`;
 CREATE TABLE IF NOT EXISTS `members` (
 `key` smallint(5) unsigned NOT NULL,
