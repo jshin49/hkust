@@ -13,7 +13,7 @@
 
 	if (mysqli_query($conn, $query)) {
 		mysqli_close($conn);
-		echo("<meta http-equiv='Refresh' content='1; URL=news.php?no=0'>");
+		echo("<meta http-equiv='Refresh' content='1; URL=index.php?no=0'>");
 	} else {
 		echo "Error: " . $query . "<br>" . mysqli_error($conn);
 	}
