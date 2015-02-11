@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 <link rel="stylesheet" href="./css/bootstrapyeti.css">
-<!-- <link rel="stylesheet" href="./css/bootstrapp.min.css"> -->
-=======
-<link rel="stylesheet" href="./css/bootstrapp.css">
-<link rel="stylesheet" href="./css/bootstrapp.min.css">
->>>>>>> origin/master
 <?php include './head.php' ?>
 <style>
   .container-fluid {
@@ -16,7 +10,6 @@
 </style>
 <?php include './header.php';
       include './db_info.php'; 
-
 	// function newUser() { 
 	// 	$userID = $_POST['uid']; 
 	// 	$password = $_POST['password']; 
@@ -28,16 +21,13 @@
 	// 	$query = "INSERT INTO members (id, pw, sid, firstname, lastname, email, phone) 
 	// 			  VALUES ('$userID', '$password', '$SID', '$firstName', '$lastName', '$email','$phone')"; 
 	// 	$data = mysql_query ($query) or die(mysql_error()); 
-
 	// 	if($data) { 
 	// 		echo "YOUR REGISTRATION IS COMPLETED..."; 
 	// 	} 
 	// }
-
 	// function signUp() {
 	// 	if (!empty($_POST['uid'])) {
 	// 		$query = mysql_query("SELECT * FROM members WHERE userID = '$_POST[uid]' AND password = '$_POST[password]'") or die(mysql_error());
-
 	// 		if(!$row = mysql_fetch_array($query)) {
 	// 			newUser();
 	// 		}
@@ -46,7 +36,6 @@
 	// 		}
 	// 	}
 	// }
-
 	// if(isset($_POST['submit'])) {
 	// 	signUp();
 	// }
